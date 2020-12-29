@@ -50,8 +50,10 @@ setup(name='talon',
           "scipy",
         #   "scikit-learn==0.16.1", # pickled versions of classifier, else rebuild
           "scikit-learn" # loosened version
-          'chardet>=1.0.1',
-          'cchardet>=0.3.5',
+        #   'chardet>=1.0.1',
+          'chardet', # loosened version
+        #   'cchardet>=0.3.5',
+          'cchardet', # loosened version
           'cssselect',
           'six>=1.10.0',
           'html5lib'
